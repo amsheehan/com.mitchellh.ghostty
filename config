@@ -50,5 +50,5 @@
 
 command = /bin/zsh -l -c "cd /Users/alexsheehan/Developer/sf/secureframe && exec tmux new-session -A -s main"
 
-# Send unique escape sequence for Cmd+\ so Neovim can map it
-keybind = super+backslash=text:\x1b[92;9u
+# Send Ctrl+\ for Cmd+\ (remapped so Cmd+\ behaves like Ctrl+\)
+keybind = super+backslash=text:\x1c
