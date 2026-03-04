@@ -48,7 +48,7 @@
 # # Just for example:
 # resize-overlay-duration = 4s 200ms
 
-command = /bin/zsh -l -c "cd /Users/alexsheehan/Developer/sf/secureframe && exec tmux new-session -A -s main"
+command = /bin/zsh -l -c "exec tmux new-session -A -s main"
 
 # Send Ctrl+\ for Cmd+\ (remapped so Cmd+\ behaves like Ctrl+\)
 # Unbind default Ghostty action for Cmd+\, then remap to Ctrl+\ for lvim ToggleTerm
